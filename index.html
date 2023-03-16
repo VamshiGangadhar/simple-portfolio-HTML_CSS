@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        th td{
+            padding: 15px;
+            border: 1px solid black;    
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" style="margin: 0px;display: flex;justify-content: space-between;">
+        <a class="nav-links" href="#">H.Vamshi Gangadhar</a>
+        <a class="nav-links" href="mailto:'vamshi.gangadhar365@gmail.com'" style="text-align: right;"><img style="height: 20px;" src="/images/gmail-logo.svg" /> Contact</a>
+    </nav>
+    <div  class="whole">
+    <div>
+        <div class="hero" style="margin-top: 0px;display: flex;justify-content: center;">
+            <div style="margin: 10px;padding-right: 100px;">
+                <img  style="height: 250px;width: 250px;border-radius: 50%;" src="/images/HVG Webmaster.jpg"/>
+            </div>
+        <div style="width: 40%;">
+            <p>
+                Hello there I'm Vamshi a <u><i>Web developer</i></u>,
+                 I'm intrested in developing real world projects 
+                 and working with people collabratively
+            </p>
+
+            <!-- <p>I'm enthusiastic in web dev </p> -->
+        </div>
+    </div>
+    <h2 class="heading">Skills</h2>
+    <table style="margin-left: auto;margin-right: auto;" border="1" width="50%">
+        <tr>
+            <th>Skill</th>
+            <th>Skill Meter</th>
+        </tr>
+        <tr>
+            <td><img src="/images/html.svg" /></td>
+            <td><meter min="0" max="100" value="50">d</meter></td>
+        </tr>
+        <tr>
+            <td><img src="/images/css.svg" /></td>
+            <td><meter min="0" max="100" value="50">d</meter></td>
+        </tr>
+        <tr>
+            <td> <img src="images/bootstrap.svg" /></td>
+            <td><meter min="0" max="100" value="50">d</meter></td>
+        </tr>
+        <tr>
+            <td><img src="images/javascript.svg" /></td>
+            <td><meter min="0" max="100" value="50">d</meter></td>
+        </tr>
+    </table>
+    </div>
+    <div>
+        <h2 class="heading">Projects</h2>
+        <div class="projects">
+            <div class="oneProject">
+                <img class="project-image" src="/images/portfolio.jpeg" />
+                <div>
+                    <a href="#" class="nav-links">View Project</a>
+                    <a href="#" class="nav-links">Github Repo link</a>
+                </div>
+            </div>
+            <div class="oneProject">
+                <img class="project-image" src="/images/calculator.png" />
+                <div>
+                    <a href="#" class="nav-links">View Project</a>
+                    <a href="#" class="nav-links">Github Repo link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="heading">Interests</h2>
+        <p style="padding: 30px;">
+            I am a Web developer very enthusiastic in designing websites 
+            which gives me atmost happiness and holds joy in me all the 
+            way of development. I am pretty much intrested in working in teams.
+            At present I am pursuing my BTech.
+        </p>
+    </div>
+    <div>
+        <h2 class="heading">Experience</h2>
+        <div>
+            <img style="height: 80px;border-radius: 10px;" src="/images/ACM-Logo.jpg" />
+            <p>ACM Webmaster</p>
+        </div>
+    </div>
+    <form class="feedback-form">
+        <h2 class="heading">Contact Form</h2>
+        <table class="form-table" border="2">
+            <tr>
+                <th>Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <th>Message</th>
+                <td><input type="textarea"></td>
+            </tr>
+        </table>
+    </form>
+    <div>
+        <div>
+           <a href="#"> <img src="/images/github.svg" /></a>
+           <a href="#">  <img src="/images/linkedin.svg" /></a>
+            <a href="#">  <img src="/images/instagram.svg" /> </a>
+        </div>
+        <div>
+            <p>@Copyright</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
